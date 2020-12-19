@@ -15,6 +15,8 @@
 		0C91D7E12585D93A00052115 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C91D7DF2585D93A00052115 /* LaunchScreen.storyboard */; };
 		0C91D7EC2585D93A00052115 /* OTP_Field_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C91D7EB2585D93A00052115 /* OTP_Field_SwiftTests.swift */; };
 		0C91D7F72585D93A00052115 /* OTP_Field_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C91D7F62585D93A00052115 /* OTP_Field_SwiftUITests.swift */; };
+		0C91D80A2585D96800052115 /* OTPField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C91D8092585D96800052115 /* OTPField.swift */; };
+		0C91D8102585D9CE00052115 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C91D80F2585D9CE00052115 /* TextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		0C91D7F22585D93A00052115 /* OTP_Field_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OTP_Field_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C91D7F62585D93A00052115 /* OTP_Field_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTP_Field_SwiftUITests.swift; sourceTree = "<group>"; };
 		0C91D7F82585D93A00052115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C91D8092585D96800052115 /* OTPField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPField.swift; sourceTree = "<group>"; };
+		0C91D80F2585D9CE00052115 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		0C91D7D32585D93900052115 /* OTP_Field_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				0C91D8072585D94600052115 /* Components */,
 				0C91D7D42585D93900052115 /* AppDelegate.swift */,
 				0C91D7D62585D93900052115 /* SceneDelegate.swift */,
 				0C91D7D82585D93900052115 /* ViewController.swift */,
@@ -126,6 +131,31 @@
 				0C91D7F82585D93A00052115 /* Info.plist */,
 			);
 			path = OTP_Field_SwiftUITests;
+			sourceTree = "<group>";
+		};
+		0C91D8072585D94600052115 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0C91D80E2585D9A100052115 /* TextField */,
+				0C91D8082585D95300052115 /* OTP_Field */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		0C91D8082585D95300052115 /* OTP_Field */ = {
+			isa = PBXGroup;
+			children = (
+				0C91D8092585D96800052115 /* OTPField.swift */,
+			);
+			path = OTP_Field;
+			sourceTree = "<group>";
+		};
+		0C91D80E2585D9A100052115 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				0C91D80F2585D9CE00052115 /* TextField.swift */,
+			);
+			path = TextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +288,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C91D80A2585D96800052115 /* OTPField.swift in Sources */,
 				0C91D7D92585D93900052115 /* ViewController.swift in Sources */,
 				0C91D7D52585D93900052115 /* AppDelegate.swift in Sources */,
+				0C91D8102585D9CE00052115 /* TextField.swift in Sources */,
 				0C91D7D72585D93900052115 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
